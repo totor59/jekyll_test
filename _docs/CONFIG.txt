@@ -1,0 +1,4 @@
+1/ Dans .stylelintrc editer la ligne "scss/dollar-variable-default": [true, { "ignore": "local" }]" avec "scss/dollar-variable-default": null"
+2/ Copier le fichier scss/_variables.scss dans un nouveau fichier scss/_custom.scss
+3/ Inserer '@import "custom";' en dessous de '@import "variables";' dans le fichier scss/bootstrap.scss
+4/ c'est pret (:
